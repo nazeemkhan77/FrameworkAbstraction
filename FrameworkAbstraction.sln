@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "FrameworkAbstraction.Contract\Contract.csproj", "{48400AD1-9052-4C8C-87AB-4400DD8295DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache.Memcache", "Caching.Memcache\Cache.Memcache.csproj", "{E024F48F-B5BB-42BC-8746-D45B0E7C0C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cache", "Cache", "{2DA0B26A-979F-45A0-BF88-05AFBDDF9EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache.Redis", "Cache.Redis\Cache.Redis.csproj", "{2DB2D955-7985-4181-BF36-C9D722BC85C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache.Couchbase", "Cache.Couchbase\Cache.Couchbase.csproj", "{F4D36727-1E9A-4CC6-9D2A-B1A3F3CA7008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroOrm", "MicroOrm", "{5687B9C9-382D-4AF8-BFCD-7865BA128A97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ORM", "ORM", "{D4A5E766-7623-4EA7-9DAA-8ADEBD63179E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataMapper", "DataMapper", "{1CA6364D-538C-4A19-9065-B8CF221D979B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataValidator", "DataValidator", "{EAD2A445-D2D9-4098-9098-A968D43F0555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{B8DFBD55-965D-431F-90D2-D381F9A9EC0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authorize", "Authorize", "{19387C41-166C-4E5E-9FCA-62C14D7E18E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authenticate", "Authenticate", "{800A877B-477F-4920-BAA4-BD4DC5BCDB7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{1B72256D-7BCD-469E-8D97-EB3497B561C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception", "Exception", "{64821138-FC5E-4856-B79A-418F90037467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48400AD1-9052-4C8C-87AB-4400DD8295DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48400AD1-9052-4C8C-87AB-4400DD8295DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48400AD1-9052-4C8C-87AB-4400DD8295DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48400AD1-9052-4C8C-87AB-4400DD8295DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E024F48F-B5BB-42BC-8746-D45B0E7C0C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E024F48F-B5BB-42BC-8746-D45B0E7C0C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E024F48F-B5BB-42BC-8746-D45B0E7C0C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E024F48F-B5BB-42BC-8746-D45B0E7C0C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DB2D955-7985-4181-BF36-C9D722BC85C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DB2D955-7985-4181-BF36-C9D722BC85C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DB2D955-7985-4181-BF36-C9D722BC85C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DB2D955-7985-4181-BF36-C9D722BC85C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D36727-1E9A-4CC6-9D2A-B1A3F3CA7008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D36727-1E9A-4CC6-9D2A-B1A3F3CA7008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D36727-1E9A-4CC6-9D2A-B1A3F3CA7008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D36727-1E9A-4CC6-9D2A-B1A3F3CA7008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E024F48F-B5BB-42BC-8746-D45B0E7C0C83} = {2DA0B26A-979F-45A0-BF88-05AFBDDF9EFB}
+		{2DB2D955-7985-4181-BF36-C9D722BC85C5} = {2DA0B26A-979F-45A0-BF88-05AFBDDF9EFB}
+		{F4D36727-1E9A-4CC6-9D2A-B1A3F3CA7008} = {2DA0B26A-979F-45A0-BF88-05AFBDDF9EFB}
+	EndGlobalSection
+EndGlobal
